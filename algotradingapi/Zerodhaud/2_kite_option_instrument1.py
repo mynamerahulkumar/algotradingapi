@@ -28,22 +28,10 @@ kite.set_access_token(kite_access_token)
 # =============================================================================
 instrumentlist=kite.instruments("NFO")
 
-
+underlying_price=kite.quote("NSE:NIFTY BANK")
 # =============================================================================
 # get all option contract
 # =============================================================================
 
-def get_option_contracts(ticker,option_type="CE",exchange="NFO"):
-    option_contract=[]
-    for instrument in instrumentlist:
-        if(instrument["name"]==ticker and instrument["instrument_type"]==option_type):
-            option_contract.append(instrument)
-    return pd.DataFrame(option_contract)
 
-option_contract2=get_option_contracts("BANKNIFTY")
-# =============================================================================
-# profile=kite.profile()
-# =============================================================================
-# =============================================================================
-# underlying_price=kite.quote("NSE:NIFTY BANK")
-# =============================================================================
+
