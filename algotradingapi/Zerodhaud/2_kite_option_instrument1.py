@@ -6,14 +6,14 @@ Created on Sat Sep  7 14:01:52 2024
 """
 from kiteconnect import KiteConnect
 import pandas as pd
-Kite_api_key='gk1nt2kv793a8t3n'
+Kite_api_key=''
 
-kite_api_secret='1g9z1fsl5qfrnprwn6xh5hm2mwzgzsou'
+kite_api_secret=''
 
 # =============================================================================
 # https://kite.trade/connect/login?api_key=gk1nt2kv793a8t3n
 # =============================================================================
-kite_access_token='QdWFyUrVPnsVorFG8mbqJCOLIT2H9K0n'
+kite_access_token=''
 
 # =============================================================================
 #  create a trading session

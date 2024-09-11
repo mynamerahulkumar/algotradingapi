@@ -1,7 +1,7 @@
 clientid=1103695755
 from dhanhq import dhanhq
 import pandas as pd
-access_token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzI3MTA0MjkyLCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMzY5NTc1NSJ9.dW3W7NduPmHm6WdDVIjqbU7lYy9P6yX5wJ0LrPnjZ1l2N7kUatY2YgKMyUZ3OivKQlV-HzeqRSdQxWkTUTjtVw"
+access_token=".."
 dhan = dhanhq(clientid,access_token)
 
 def historical_data(dhan,symbol,exchange_segment,instrument_type,from_date,to_date):

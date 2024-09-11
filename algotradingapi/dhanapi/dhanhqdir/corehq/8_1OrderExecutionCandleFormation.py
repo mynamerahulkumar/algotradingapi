@@ -8,9 +8,8 @@ from dhanhq import dhanhq
 from dhanhq import marketfeed
 import pandas as pd
 # Add your Dhan Client ID and Access Token
-client_id="1103695755"
-access_token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzI0MzUxMjk5LCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMzY5NTc1NSJ9.0mOPgx7lfTGrAjA0FymdtldZmPEW8wIKe2XLrGxk_Hb6utx3m5sC5qIO4z3eMVXvgEnGo962iFcgFA15aI3hEg"
-
+client_id=""
+access_token=".."
 
 
 # Structure for subscribing is ("exchange_segment","security_id")

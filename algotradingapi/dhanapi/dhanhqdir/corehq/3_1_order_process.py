@@ -4,8 +4,7 @@ import pandas as pd
 from datetime import  datetime
 # Add your Dhan Client ID and Access Token
 clientid=1103695755
-access_token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzI3MTA0MjkyLCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMzY5NTc1NSJ9.dW3W7NduPmHm6WdDVIjqbU7lYy9P6yX5wJ0LrPnjZ1l2N7kUatY2YgKMyUZ3OivKQlV-HzeqRSdQxWkTUTjtVw"
-
+access_token=".."
 instruments=[(0,'13'),(1,'1333'),(7,'1001737'),(8,'869117')] #instrumentid (second term)# first is enum
 
 subscription_code=19
