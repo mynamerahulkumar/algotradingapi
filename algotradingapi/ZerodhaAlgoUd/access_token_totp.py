@@ -12,7 +12,6 @@ import time
 import os
 from pyotp import TOTP
 from selenium.webdriver.chrome.options import Options
-
 cwd = os.chdir(r"C:\Users\LENOVO\OneDrive\Documents\A_Udeyme\ppts\Algo_trradiing\algocode")
 
 def autologin():
